@@ -1,5 +1,3 @@
-const { interaction } = require('../index2')
-
 const voice = require('@discordjs/voice')
 
 const Discord = require('discord.js')
@@ -22,7 +20,6 @@ const button4 = new Discord.MessageButton()
 .setStyle("PRIMARY")
 const row = new Discord.MessageActionRow()
 .addComponents([button1 , button2 , button3 , button4])
-const { db } = require("../index2")
 module.exports = {
     name: "lofi",
 
