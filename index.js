@@ -17,7 +17,6 @@ console.log("Ready")
 
     let commands = client.guilds.cache.get(config.guildId)
 
-   commands.cache.forEach(x => x.delete())
    fs.readdir(__dirname + "/commands" , (err , data) =>{
 
         data.forEach(r => {
