@@ -36,8 +36,7 @@ console.log("Ready")
 
 client.on("interactionCreate", (interaction) =>{
     if(!interaction.isCommand()) return;
-    module.exports = {interaction}
-
+    
     fs.readdir(__dirname + "/commands", (err , data1) =>{
         data1.forEach(data =>{
       const command = require(`./commands/${data}`)
@@ -52,8 +51,6 @@ client.on("interactionCreate", (interaction) =>{
   })
 
 client.on("interactionCreate" , async(i) =>{
-
-    module.exports = {i}
 
     if(!i.isButton()) return;
 
