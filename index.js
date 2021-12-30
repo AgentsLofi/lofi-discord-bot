@@ -61,7 +61,7 @@ client.on("interactionCreate" , async(i) =>{
 
         const connection = voice.joinVoiceChannel({channelId: user.voice.channel.id, guildId: i.guild.id , adapterCreator: i.guild.voiceAdapterCreator})
 
-        const resource = voice.createAudioResource("https://07b44db5-93ef-4b4b-92d5-918dc1b9a886.id.repl.co/lofi/normal" + `?filter=${filter}`)
+        const resource = voice.createAudioResource("https://ec4d1aed-0f7b-4c62-9e9e-09af59ed1e12.id.repl.co/lofi/normal" + `?filter=${filter}`)
 
         const player = voice.createAudioPlayer()
 
@@ -76,7 +76,7 @@ client.on("interactionCreate" , async(i) =>{
 
         const connection = voice.joinVoiceChannel({channelId: user.voice.channel.id, guildId: i.guild.id , adapterCreator: i.guild.voiceAdapterCreator})
 
-        const resource = voice.createAudioResource("https://07b44db5-93ef-4b4b-92d5-918dc1b9a886.id.repl.co/lofi/hindi"+ `?filter=${filter}`)
+        const resource = voice.createAudioResource("https://ec4d1aed-0f7b-4c62-9e9e-09af59ed1e12.id.repl.co/lofi/hindi"+ `?filter=${filter}`)
 
         const player = voice.createAudioPlayer()
 
@@ -104,7 +104,7 @@ client.on("interactionCreate" , async(i) =>{
 
         const connection = voice.joinVoiceChannel({channelId: user.voice.channel.id, guildId: i.guild.id , adapterCreator: i.guild.voiceAdapterCreator})
 
-        const resource = voice.createAudioResource("https://07b44db5-93ef-4b4b-92d5-918dc1b9a886.id.repl.co/lofi/live"+ `?filter=${filter}`)
+        const resource = voice.createAudioResource("https://ec4d1aed-0f7b-4c62-9e9e-09af59ed1e12.id.repl.co/lofi/live"+ `?filter=${filter}`)
 
         const player = voice.createAudioPlayer()
 
@@ -122,7 +122,7 @@ client.on("interactionCreate" , async(i) =>{
 
         const player = voice.createAudioPlayer()
 
-        const resource = voice.createAudioResource("https://07b44db5-93ef-4b4b-92d5-918dc1b9a886.id.repl.co/lofi/study"+ `?filter=${filter}`)
+        const resource = voice.createAudioResource("https://ec4d1aed-0f7b-4c62-9e9e-09af59ed1e12.id.repl.co/lofi/study"+ `?filter=${filter}`)
 
         player.play(resource)
 
